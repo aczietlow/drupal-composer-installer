@@ -3,7 +3,6 @@
   "description": "Project template for drupal 8",
   "type": "project",
   "license": "GPL-2.0+",
-  ],
   "repositories": [
     {
       "type": "composer",
