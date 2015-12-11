@@ -18,23 +18,17 @@
   "require": {
     "composer/installers": "^1.0.20",
     "cweagans/composer-patches": "~1.0",
-    "drupal/core": "8.0.*",
-    "drush/drush": "~8.0",
-    "drupal/console": "~0.9"
+    "drupal/drupal": "7.*",
+    "drush/drush": "~7.0"
   },
   "require-dev": {
-    "behat/mink": "~1.6",
-    "behat/mink-goutte-driver": "~1.2",
-    "jcalderonzumba/gastonjs": "^1.1@dev",
-    "jcalderonzumba/mink-phantomjs-driver": "dev-master#10d7c48c9a4129463052321b52450d98983c4332",
-    "mikey179/vfsStream": "~1.2",
-    "phpunit/phpunit": "~4.8",
-    "symfony/css-selector": "2.7.*"
+    "behat/behat": "3.0.*@dev",
+    "drupal/drupal-extension": "3.0.*@dev"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "scripts": {
-    "post-install-cmd": "sh ./scripts/composer/post-install.sh"
+    "post-install-cmd": "sh ./build/install.sh"
   },
   "extra": {
     "installer-paths": {
