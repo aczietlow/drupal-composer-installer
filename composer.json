@@ -16,7 +16,9 @@
     "cweagans/composer-patches": "~1.0",
     "derhasi/composer-preserve-paths": "0.1.*",
     "drupal/drupal": "7.*",
-    "drush/drush": "~7.0"
+    "drush/drush": "~7.0",
+    "drupal/ctools": "7.*",
+    "drupal/workbench": "7.*"
   },
   "conflict": {
     "drupal/core": "8.*"
@@ -24,9 +26,6 @@
   "require-dev": {
     "behat/behat": "3.0.*@dev",
     "drupal/drupal-extension": "3.0.*@dev"
-  },
-  "scripts": {
-//    "post-install-cmd": "sh ./build/install.sh"
   },
   "extra": {
     "installer-paths": {
