@@ -7,6 +7,18 @@
     {
       "type": "composer",
       "url": "https://packagist.drupal-composer.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "jquery/jqueryui",
+        "version": "1.10.4",
+        "type": "drupal-library",
+        "dist": {
+          "url": "http://jqueryui.com/resources/download/jquery-ui-1.10.4.zip",
+          "type": "zip"
+        }
+      }
     }
   ],
   "minimum-stability": "dev",
@@ -18,7 +30,8 @@
     "drupal/drupal": "7.*",
     "drush/drush": "~7.0",
     "drupal/ctools": "7.*",
-    "drupal/workbench": "7.*"
+    "drupal/workbench": "7.*",
+    "jquery/jqueryui": "1.10.4"
   },
   "conflict": {
     "drupal/core": "8.*"
